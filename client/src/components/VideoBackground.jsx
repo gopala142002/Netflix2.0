@@ -1,10 +1,9 @@
 const VideoBackground = () => {
   return (
-    <div>
+    <div className="w-screen">
         <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/czhvrkisnLQ?si=gCbBvyLal-mo5TRy" 
+            className="w-screen aspect-video"
+            src="https://www.youtube.com/embed/Zv11L-ZfrSg?si=U-c14QoseWiJt3NT&autoplay=1&mute=1" 
             title="YouTube video player" 
             allowfullscreen>
         </iframe>
