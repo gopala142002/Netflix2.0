@@ -1,9 +1,10 @@
 import Body from "./components/Body"
-import {} from "react-router-dom";
+import { Toaster } from 'react-hot-toast';
 const App = () => {
   return (
     <div> 
         <Body/>
+        <Toaster/>
     </div>
   )
 }
