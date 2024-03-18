@@ -1,5 +1,6 @@
 import Body from "./components/Body"
 import { Toaster } from 'react-hot-toast';
+import './App.css';
 const App = () => {
   return (
     <div> 

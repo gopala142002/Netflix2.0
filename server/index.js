@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://netflix2-0-six.vercel.app/",
+  origin: "http://localhost:5173",
   credentials:true
 };
 
