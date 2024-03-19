@@ -1,9 +1,9 @@
 import useMovieById from "../hooks/useMovieById"
 import {useSelector} from "react-redux";
-const VideoBackground = (movieId) => {
+const VideoBackground = ({movieId,popUp=false}) => {
   const trailerMovie = useSelector(store=>store.movie.trailerMovies);
-  console.log(trailerMovie);
-  useMovieById(movieId);
+  // console.log(trailerMovie);
+  useMovieById({movieId});
   return (
     <div className="w-screen">
         <iframe 
