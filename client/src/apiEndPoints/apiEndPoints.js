@@ -11,3 +11,4 @@ export const popular_Movies="https://api.themoviedb.org/3/movie/popular";
 export const topRated_Movies="https://api.themoviedb.org/3/movie/top_rated";
 export const upcoming_Movies="https://api.themoviedb.org/3/movie/upcoming";
 export const Banner_url="https://image.tmdb.org/t/p/w500";
+export const Search_Movie_URL="https://api.themoviedb.org/3/search/movie?query=";
